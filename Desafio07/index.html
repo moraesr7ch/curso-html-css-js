@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de imagens dinâmicas</title>
+</head>
+<body>
+<h1>Imagens Flexiveis</h1>    
+<p>Você está vendo a imagem completa ? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#128540</p>
+
+    <picture>
+        <source media="(max-width:790px )" srcset="assets/images/paisagem-p.png" type="image/png">
+        <source media="(max-width:1250px)" srcset="assets/images/paisagem-m.png" type="image/png">
+        <img src="assets/images/paisagem-g.png" alt="paisagem">
+    </picture>
+</body>
+</html>
